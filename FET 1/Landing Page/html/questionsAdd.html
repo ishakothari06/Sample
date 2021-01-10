@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Quiz Application</title>
+
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Google fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"
+        integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf"
+        crossorigin="anonymous"></script>
+    <link href="../css/questionsAdd.css" rel="stylesheet" />
+</head>
+
+<body>
+
+        <div class="container">
+            <!-- Contact Section Heading-->
+            <h2 class="questionLabel text-center text-uppercase mb-3">Add Questions</h2>
+            <!-- Contact Section Form-->
+            <div class="row text-uppercase text-secondary mb-0">
+                <div class="col-lg-8 mx-auto">
+                    <form class="text-uppercase">
+                        <div class="form-group">
+                            <label for="category">Category</label>
+                            <div class="dropdown mb-3">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Select Category
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <button class="dropdown-item" type="button">Cricket</button>
+                                    <button class="dropdown-item" type="button">Football</button>
+                                    <button class="dropdown-item" type="button">Technology</button>
+                                    <button class="dropdown-item" type="button">Global Politics</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="question">Question</label>
+                            <input type="text" class="form-control mb-3" id="question" placeholder="Enter your Question">
+                        </div>
+                        <div class="form-group">
+                            <label for="option1">Option A</label>
+                            <input type="text" class="form-control mb-3" id="option1" placeholder="Add option">
+                        </div>
+                        <div class="form-group">
+                            <label for="option2">Option B</label>
+                            <input type="text" class="form-control mb-3" id="option2" placeholder="Add option">
+                        </div>
+                        <div class="form-group">
+                            <label for="option3">Option C</label>
+                            <input type="text" class="form-control mb-3" id="option3" placeholder="Add option">
+                        </div>
+                        <div class="form-group">
+                            <label for="option4">Option D</label>
+                            <input type="text" class="form-control mb-3" id="option4" placeholder="Add option">
+                        </div>
+                        <div class="form-group mb-4">
+                            <label for="answer">Answer</label>
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="answer"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Choose Correct Answer
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="answer">
+                                    <button class="dropdown-item" type="button">Option A</button>
+                                    <button class="dropdown-item" type="button">Option B</button>
+                                    <button class="dropdown-item" type="button">Option C</button>
+                                    <button class="dropdown-item" type="button">Option D</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" class="questionButton btn btn-lg">Add Question</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>

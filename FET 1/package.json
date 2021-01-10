@@ -1,0 +1,11 @@
+{
+  "name": "keyur-work",
+  "version": "1.0.0",
+  "main": "adduser.js",
+  "scripts": {
+    "json:server": "json-server --watch db.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
