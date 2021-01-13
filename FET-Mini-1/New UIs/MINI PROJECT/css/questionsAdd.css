@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container{
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.questionButton{
+    width: 100%;
+    background-color: #148f77;
+    color: white;
+}
+
+.questionButton:hover{
+    background-color: #106e5b;
+    color: white;
+}
+
+.questionLabel{
+    color: #2c3e50;
+}
+
+.form-control{
+    border: none;
+    padding: 0px;
+    padding-top: 5px; 
+    border-radius: 0px;
+    border-bottom: 1px solid grey;
+}
+
+.form-control:focus{
+    border-bottom: 3px solid #148f77;
+    box-shadow: none;
+}
+

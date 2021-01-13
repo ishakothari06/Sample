@@ -1,0 +1,9 @@
+Keyur - User Registration in json format (Registration Form)
+
+Chirag - Push questions in json format
+
+Krupesh - Header/Footer and question cards
+
+Isha - Same as Krupesh
+
+Darshan - After Login add session (r&d)

@@ -1,0 +1,58 @@
+Quiz Application
+
+Two main Modules - 1. Admin(Registration is Hard Coded) 2. User
+
+Page 1. index.html 
+Header/Footer, 
+Introduction text and some cards, 
+Get Started button redirect to login/register, 
+about us and all sample navbar
+
+Page 2. login/registration .html
+login shows admin/user selection option,
+Both module on same page??? (team review)
+
+---> Registration.html (after successful registration redirects to login.html)
+
+Page 3. User Panel (After Successful Login as user) (login start session)
+
+	Userpage 1. userHome.html
+				shows logout button on header for logout (which closed session)
+				pages with Dashboard -> 1. My Stat 2. Quiz Category 3. Leaderboard
+
+			 2. Category.html
+			 	shows all categories of Quiz in cards(Bootstrap) format
+			 	And each card redirects to quizhome.html page
+
+			 3. quizHome.html page shows rules and introductions of that quiz and start quiz button
+
+			 4. quiz.html page start quiz
+
+
+
+Work Allocation
+
+Ankita - 
+
+Isha - 
+
+Darshan - 
+
+Chirag - 
+
+Krupesh - 
+
+Keyur - 
+
+Sunil - 
+
+Pranitha - 
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,64 @@
+html,body{
+   box-sizing: border-box;
+   background-color: #148f77;
+}
+
+.container-fluid{
+    margin-top: 20vh;
+}
+
+.quiz-card{
+    margin: auto;
+    border-radius: 10px;
+    align-items: center;
+    height: 50vh;
+    min-height: max-content;
+    width: 50vw;
+    min-width: 300px;
+    overflow-x: auto;
+}
+
+.card-title{
+    color: rgb(11, 196, 199);
+    font-weight: bold;
+    min-height: max-content;
+    
+}
+
+.card-body{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 99%;
+    min-width: max-content;
+
+}
+
+.radio{
+    background-color:lightgray;
+    width: 90%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.card-link{
+    border: 2px solid #148f77;
+    background-color: #148f77;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.end{
+    padding: 15px;
+    background-color: lightgray;
+    border-radius: 100%;
+}
+
+.copyright{
+    background-color: #212c38;
+    font-size: 20px;
+    bottom: 0;
+    position: absolute;
+}
